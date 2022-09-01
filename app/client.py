@@ -23,9 +23,9 @@ async def main():
         """GET"""
         # response = await session.get(f'{HOST}/users/8')
         # print(await response.json())
-        #
-        # response = await session.get(f'{HOST}/advertisements/3')
-        # print(await response.json())
+        # #
+        response = await session.get(f'{HOST}/advertisements/3')
+        print(await response.json())
 
         """PATCH"""
         # response = await session.patch(f'{HOST}/users/8',

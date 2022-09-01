@@ -8,3 +8,4 @@ aiohttp[speedups]
 pydantic
 aiohttp_pydantic
 bcrypt
+gunicorn

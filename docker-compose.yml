@@ -9,3 +9,16 @@ services:
       POSTGRES_DB: app
     ports:
       - "5431:5432"
+
+  backend:
+    build: .
+    ports:
+      - "8080:8080"
+    restart:
+      always
+    volumes:
+      - ./app:/app
+    depends_on:
+      - db
+    working_dir: /app
+    entrypoint: python server.py
