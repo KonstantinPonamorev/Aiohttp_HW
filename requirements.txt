@@ -1,0 +1,10 @@
+aiohttp
+cchardet
+aiodns
+sqlalchemy
+aiopg
+asyncpg
+aiohttp[speedups]
+pydantic
+aiohttp_pydantic
+bcrypt
